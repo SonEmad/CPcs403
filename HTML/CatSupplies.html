@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+	group number : we do not know
+	student name: emad fawaz alsulami 2036759
+	student name: abdalaziz ali algamedi 2035205
+	date: 19/10/2023
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatSupplies</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="itemBody">
+    <!--here we split the headertop into three part  headerRight , headerCenter , about -->
+    <div id="headerTop">
+        <!-- our store name is shop zoo-->
+        <div id="headerRight">
+            <h1>SHOP ZOO</h1>
+        </div>
+        <!-- here we insert search bottem so we can search in the final project-->
+        <div id="headerCenter"> <input type="search" placeholder="Search in the store" /> </div>
+        <!-- it is for about store -->
+        <div class="about">
+            <ul>
+                <li><a href="about_us.html">About us</a></li> <!-- About us page-->
+            </ul>
+            <p> <cite> chack what we said about us <br> by clik the <b>About us </b></cite></p>
+        </div>
+    </div>
+    <div class="HeaderPageItem">
+
+        <ul>
+            <li><a href="Home.html">Home</a></li> <!-- Home idea-->
+            <li><a href="about_us.html">About</a></li> <!--About-->
+            <li><a href="Time Schedule.html">Time Schedule</a></li> <!-- scagole-->
+            <li><a href="Feedback_form.html">Feedback</a></li> <!-- feedback-->
+            <li><a href="StorePage.html">Store</a></li> <!-- home store-->
+        </ul>
+
+
+    </div>
+    <!-- our midheader which the animal type-->
+    <div class="midheader">
+
+        <h1 class="welcoom">     our supplies for the Cats        </h1>
+         <!-- here the code for the bottom that return us to the home page-->
+         <button class="Back" onclick="window.location.href='StorePage.html';">
+            Return Store Page
+        </button>
+
+    </div>
+
+    <div class="items">
+
+
+        <ul> <!-- here we create an unordered for display the item and their imegs-->
+            <li class="up"><img src="../image/Cats/food_cat/applaws.png" alt="Cat" width="150" height="150">
+                <!--item 1-->
+                <p> a cop of meet <br> that stay long <br> 69 ryals</p>
+                <input type="submit" value="buy">
+            </li>
+            <li class="up"><img src="../image/Cats/food_cat/Cream.png" alt="Cat" width="150" height="150"><!--item 2-->
+                <p> a senak to <br> you cat while out <br> 75 ryals</p>
+                <input type="submit" value="buy">
+            </li>
+            <li class="up"><img src="../image/Cats/food_cat/DryFood.png" alt="Cat" width="150" height="150">
+                <!--item 3-->
+                <p> dry food <br> by meet <br> 35 ryals</p>
+                <input type="submit" value="buy">
+            </li>
+            <br><br> <br> <!-- split the item to make two row-->
+            <li class="down"><img src="../image/Cats/food_cat/felix.png" alt="Cat" width="150" height="150">
+                <!--item 4-->
+                <p> dry food <br> by touna <br> 50 ryals</p>
+                <input type="submit" value="buy">
+            </li>
+            <li class="down"><img src="../image/Cats/food_cat/Schesir.png" alt="Cat" width="150" height="150">
+                <!--item 5-->
+                <p> a touna in <br> cop that stay long <br> 200 ryals</p>
+                <input type="submit" value="buy">
+            </li>
+            <li class="down"><img src="../image/Cats/food_cat/SoftStcks.png" alt="Cat" width="150" height="150">
+                <!--item 6-->
+                <p> a senak to <br> you cat while out <br> 80 ryals</p>
+                <input type="submit" value="buy">
+            </li>
+
+
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

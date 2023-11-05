@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<!-- 
+	group number : we do not know
+	student name: emad fawaz alsulami 2036759
+	student name: abdalaziz ali alhgamedi 2035205
+	date: 19/10/2023
+-->
+<html>
+
+<head>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/print.css">
+
+    <title> Time Schedule </title>
+</head>
+
+<body>
+
+
+
+    <div class="backgroundTime">
+        <div class="HeaderPageTime">
+
+            <ul>
+                <li><a href="Home.html">Home</a></li> <!-- Home idea-->
+                <li><a href="about_us.html">About</a></li> <!--About-->
+                <li><a href="Time Schedule.html">Time Schedule</a></li> <!-- scagole-->
+                <li><a href="Feedback_form.html">Feedback</a></li> <!-- feedback-->
+                <li><a href="StorePage.html">Store</a></li> <!-- home store-->
+            </ul>
+
+
+        </div>
+        <div class="time">
+            <h1>Time Schedule for the store </h1>
+            <!----------------------------------------------------------------------------------------------------->
+        </div>
+
+        <div class="Tablelayout">
+            <table class="Table" bgcolor="black">
+                <caption style="color: aqua;"> <b>Work Time</b></caption>
+                <!-- the first row -->
+                <tr bgcolor="grey" width="100">
+                    <th width="100"> branch</th>
+                    <th width="100"> Sunday </th>
+                    <th width="100"> Monday </th>
+                    <th width="100"> Tuesday </th>
+                    <th width="100"> Wednesday </th>
+                    <th> Thursday </th>
+                    <th> Friday </th>
+                    <th> Saturday </th>
+                </tr>
+                <!-- for jeddah time work -->
+                <tr bgcolor="lightgrey">
+                    <th width="100"> jeddah </th>
+                    <th width="100" colspan="3"> 8-10 </th>
+                    <td rowspan="3"> Closed</td>
+                    <th width="100" rowspan="3"> 9-10 </th>
+                    <th width="100" rowspan="3" colspan="3"> 9-10 </th>
+                </tr>
+                <!-- for makkah time work -->
+                <tr bgcolor="lightgrey">
+                    <th width="100"> makkah </th>
+                    <th width="100" colspan="3"> 9-10 </th>
+                    <!-- we use spanRaw for this row-->
+                    <!-- we use spanRaw for this row-->
+                    <!-- we use spanRaw for this row and span colom-->
+                </tr>
+                <!-- for Riyadh time work -->
+                <tr bgcolor="lightgrey">
+                    <th width="100"> Riyadh </th>
+                    <th width="100" colspan="3"> 9-12 </th>
+                    <!-- we use spanRaw for this row-->
+                    <!-- we use spanRaw for this row-->
+                    <!-- we use spanRaw for this row and span colom-->
+
+                </tr>
+
+            </table>
+
+            <button class="print" onclick="window.print()">
+                print
+            </button>
+
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

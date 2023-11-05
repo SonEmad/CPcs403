@@ -1,0 +1,492 @@
+#headerRight{
+display: inline-block;
+position:absolute;
+right: 10%;
+}
+#headerCenter{
+    display: inline-block;
+    position:absolute;
+    right: 44%;  
+    top: 6%;
+}
+.about{
+    display: inline-block;
+    position:absolute;
+    left: 10%;  
+    
+}
+
+.HeaderPage{
+position:absolute ;
+        left: 25%;
+        top: 15%;
+        z-index: 999;
+
+
+}
+.HeaderPage ul li a{
+
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50;
+}
+
+.HeaderPage ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px;
+    position: relative;
+   
+    margin-left: 50px;
+    border-width: 1.5px;
+    border-color:black;
+    border-style:solid;
+    background-color: aquamarine;
+    right: 40px;
+}
+
+
+
+
+#Dog{
+
+    position:absolute;
+    left: 20%;
+    top:60%;  
+     
+}
+#Cat{
+
+    position:absolute;
+    left: 45%;
+    top:60%;  
+     
+}
+#Bird{
+
+    position:absolute;
+    right:20%;
+    top:60%;
+     
+}
+
+.ids{
+    position:absolute;
+    top:25%;
+    right: 20%;
+    display: inline-block;
+
+
+}
+#adstext{
+    position:absolute;
+    top:20%;
+    right: 20%;
+    display: inline-block;
+
+
+}
+
+.Animal ul li a{
+color: black;
+text-decoration: none;
+font-size: 15px;
+
+}
+
+.Animal ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px;
+    position: relative;
+    margin:5px;
+    border-width: 1.5px;
+    border-color:black;
+    border-style:solid;
+    background-color: aquamarine;
+    right: 40px;
+}
+
+
+.about li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.about ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+h3 { 
+    position: relative; 
+   top: 5px;
+   left: -35px;
+   margin-bottom: 40px;
+}
+body{
+	height: 100vh;
+	position: relative;
+	background-image:url(../image/backgounghome.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+ /*--------------------------- Feedback css ------------------------------------------------- */
+
+
+.Feedback {
+    font-family: Arial, sans-serif;
+    background-image: url('../image/backgraund.png');
+
+    
+height: 100vh;
+position: relative;
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    max-width: 500px;
+    
+}
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    size: 25px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+textarea {
+    height: 100px;
+
+}
+.Feed {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.Feed:hover {
+    background-color: #45a049;
+}
+
+legend {
+color:white;
+}
+
+
+.HeaderPageForFeedback{
+position:absolute ;
+    left: 25%;
+    top: 70%;
+    z-index: 999;
+
+}
+.HeaderPageForFeedback ul li a{
+
+color: black;
+text-decoration: none;
+font-size: 20px;
+padding: 50;
+}
+
+.HeaderPageForFeedback ul li {
+list-style: none;
+display: inline;
+padding: 2px;
+position: relative;
+margin-left: 50px;
+border-width: 1.5px;
+border-color:black;
+border-style:solid;
+background-color: aquamarine;
+right: 40px;
+}
+ /*--------------------------- Time Scedule css ------------------------------------------------- */
+ 
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.backgroundTime
+{
+
+	height: 100vh;
+	position: relative;
+	background-image:url(../image/backgraund.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+
+}
+
+
+
+.Tablelayout{
+
+	width: 100%;
+	height: 100%;
+	font-size: 26px;
+	color: black;
+	display:flex ;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	bottom: 5%;
+	text-align: center;
+ 
+}
+.Table{
+    border: solid;
+    border: 10;
+}
+.Table th ,td{
+    border: solid;
+    border: 10;
+}
+
+.HeaderPageTime{
+	position:absolute ;
+			left: 25%;
+			top: 15%;
+			z-index: 999;
+	
+	}
+	.HeaderPageTime ul li a{
+	
+		color: black;
+		text-decoration: none;
+		font-size: 20px;
+		padding: 50;
+	}
+	
+	.HeaderPageTime ul li {
+		list-style: none;
+		display: inline;
+		padding: 2px;
+		position: relative;
+		margin-left: 50px;
+		border-width: 1.5px;
+		border-color:black;
+		border-style:solid;
+		background-color: aquamarine;
+		right: 40px;
+	}
+	
+	
+	
+	
+.time{
+	width: 100%;
+	height: 100%;
+	font-size: 26px;
+	color: black;
+	display:flex ;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	bottom: 20%;
+}
+
+
+ /*--------------------------- Item css ------------------------------------------------- */
+
+
+ .items{
+
+    width: 800px;
+    height: 600px;
+}
+
+.items img a{
+
+    display: inline-block
+}
+.items ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.items {
+    position: absolute;
+    bottom: 0.05%;
+    right: 18%;
+
+}
+.up img{
+    position: relative;
+    margin-right: 100px;
+
+}
+
+.down{
+    
+    position: relative;
+    margin-right: 100px;
+ 
+}
+p{
+    margin: 10px;
+  
+   
+}
+
+.itemBody{
+	width: 100pxvw;
+	height: 100vh;
+	position: relative;
+	background-image:url(../image/backgounghome.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.HeaderPageItem{
+	position:absolute ;
+			left: 27%;
+			top: 11%;
+			z-index: 999;
+	
+	}
+	.HeaderPageItem ul li a{
+	
+		color: black;
+		text-decoration: none;
+		font-size: 20px;
+		padding: 50;
+	}
+	
+	.HeaderPageItem ul li {
+		list-style: none;
+		display: inline;
+		padding: 2px;
+		position: relative;
+		margin-left: 50px;
+		border-width: 1.5px;
+		border-color:black;
+		border-style:solid;
+		background-color: aquamarine;
+		right: 5px;
+	}
+.Back{
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+}
+.welcoom{
+    position: relative;
+    top: 5px;
+    
+
+}	
+
+.midheader{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+     left: 43%;
+     top:18%;
+}
+
+
+ /*--------------------------- about css ------------------------------------------------- */
+
+
+
+.backgroundabout{
+
+    height: 100vh;
+	position: relative;
+	background-image:url(../image/backgraund.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay_txt{
+	width: 100%;
+	height: 100%;
+	font-size: 26px;
+	color: black;
+	display:flex ;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+   
+
+p{
+	background-color: aquamarine;
+}
+}	
+
+ /*--------------------------- home css ------------------------------------------------- */
+
+.backgroundHome{
+
+    height: 100vh;
+	position: relative;
+	background-image:url(../image/backgounghome.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.hometext{
+	width: 100%;
+	height: 100%;
+	font-size: 26px;
+	color: black;
+	display:flex ;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+   
+
+
+
+}

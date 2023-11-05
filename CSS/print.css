@@ -1,0 +1,25 @@
+/* Print-specific styles */
+@media print {
+
+body*{
+    display: none;
+
+}
+
+.HeaderPageTime ,.time{
+    display: none;
+}
+
+
+}
+
+.print{
+
+    height: 25px;
+    width: 100px;
+    z-index:999 ;
+    text-align: center;
+}
+.print:hover {
+    background-color: #45a049;
+}
